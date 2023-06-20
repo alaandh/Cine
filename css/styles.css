@@ -1,0 +1,387 @@
+.body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgrey;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-radius: 64px;
+  padding: 20px 132px 20px 100px;
+  background-color: rgb(33, 63, 73);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  top: -10px;
+  font-size: 72px;
+  position: relative;
+  color: lightsteelblue;
+  text-shadow: 4px 4px 4px black;
+}
+
+.search {
+  margin-left: auto;
+}
+.input {
+  width: 226px;
+  height: 42px;
+  padding-left: 6px;
+  padding-bottom: 2px;
+  border-radius: 26px;
+  border: 2px solid #000000;
+  background-color: lightsteelblue;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+}
+.button {
+  height: 42px;
+  border-radius: 26px;
+  border: 2px solid #000000;
+  background-color: lightsteelblue;
+}
+.button:hover {
+  background-color: whitesmoke;
+}
+
+#carousel {
+  margin-top: 42px;
+}
+.carousel-indicators li {
+  top: 48px;
+  position: relative;
+  background-color: #000000 !important;
+}
+
+#keypad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 42px;
+  background-color: rgb(33, 63, 73);
+}
+.keypadBtn {
+  display: flex;
+}
+.keypadBtn .dropdown {
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  position: relative;
+  background-color: whitesmoke;
+}
+.keypadBtn .dropdown:hover {
+  background-color: rgb(31, 188, 216);
+}
+.keypadBtn .content {
+  z-index: 1;
+  min-width: 160px;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  box-shadow: 0px 8px 16px 0px black;
+}
+.keypadBtn .content a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+.keypadBtn .content a:hover {
+  background-color: rgb(31, 188, 216);
+}
+.keypadBtn .dropdown:focus + .content,
+.keypadBtn .content:hover {
+  display: block;
+}
+.buy {
+  border: none;
+  display: flex;
+  color: black;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: whitesmoke;
+}
+.buy:hover {
+  background-color: rgb(31, 188, 216);
+}
+
+#billboardBtn {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  padding-bottom: 22px;
+  background-color: rgb(33, 63, 73);
+}
+
+.btnGroup-billboard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 68px;
+  margin-bottom: 28px;
+  padding: 22px 40px 22px 10px;
+  background-color: black;
+}
+.billboard-btn1 {
+  width: 144px;
+  height: 44px;
+  border-radius: 110px;
+  border: 2px solid #000000;
+  color: black;
+  background-color: rgb(31, 188, 216);
+}
+.billboard-btn1:hover {
+  background-color: whitesmoke;
+}
+.billboard-btn2 {
+  width: 144px;
+  height: 44px;
+  border-radius: 110px;
+  border: 2px solid #000000;
+  color: black;
+  background-color: rgb(31, 188, 216);
+}
+.billboard-btn2:hover {
+  background-color: whitesmoke;
+}
+.billboard-btn3 {
+  width: 144px;
+  height: 44px;
+  border-radius: 110px;
+  border: 2px solid #000000;
+  color: black;
+  background-color: rgb(31, 188, 216);
+}
+.billboard-btn3:hover {
+  background-color: whitesmoke;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie1 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie2 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie3 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie4 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie5 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie6 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie7 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie8 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie9 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie10 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie11 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.movie12 {
+  display: flex;
+  writing-mode: vertical-rl;
+  justify-content: center;
+  font-size: 20px;
+  background-color: lightgray;
+}
+
+#advertisements {
+  margin-top: 68px;
+  display: flex;
+  background-color: black;
+}
+.img1 {
+  top: -50px;
+  width: 420px;
+  height: 200px;
+
+  padding-right: 20px;
+}
+.img2 {
+  width: 300px;
+  height: 200px;
+}
+.img3 {
+  padding: 74px 0px 0px 20px;
+}
+.socialNetworks {
+  bottom: 24px;
+  left: 748px;
+  width: 184px;
+  position: relative;
+}
+
+.btnInfo {
+  bottom: 200px;
+  left: 26px;
+  position: relative;
+  display: grid;
+  float: right;
+}
+.btnInfo button {
+  padding: 10px;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  border: none;
+  float: left;
+}
+
+.ending {
+  position: relative;
+  height: 212px;
+  width: 574px;
+  bottom: 52px;
+  right: 38px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px 74px 20px 100px;
+    background-color: rgb(33, 63, 73);
+  }
+
+  .title {
+    font-size: 40px;
+    color: lightsteelblue;
+    text-shadow: 4px 4px 4px black;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+  }
+
+  .input {
+    width: 86px;
+    height: 32px;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    background-color: lightsteelblue;
+  }
+
+  .button {
+    width: 60px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: lightsteelblue;
+  }
+
+  .keypadBtn {
+    flex-wrap: wrap;
+  }
+  .keypadBtn .dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .keypadBtn .content {
+    position: static;
+    display: none;
+    box-shadow: none;
+  }
+  .keypadBtn .content a {
+    padding: 8px 16px;
+  }
+  .buy {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .movies {
+    margin-bottom: 100px;
+  }
+
+  #advertisements {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .movies {
+    margin-bottom: 32px;
+  }
+
+  #advertisements {
+    display: none;
+  }
+}
